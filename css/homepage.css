@@ -1,0 +1,221 @@
+/* homepage page */
+.navignbar {
+  background: rgb(247, 185, 247, 0.7);
+}
+.buttonp {
+  background-color: rgb(247, 185, 247);
+}
+.students {
+  margin-top:;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)),
+    url(../img/post-imgfour-720x544.jpg);
+  height: 35em;
+  padding-top: 8em;
+  overflow: hidden;
+}
+.introUnivine {
+  color: rgb(9, 13, 77);
+}
+h1 {
+  font-family: verdana;
+}
+.icon {
+  font-size: 2em;
+  color: rgb(9, 13, 77);
+  background: rgb(248, 245, 245);
+  padding: 1em;
+  border-radius: 50%;
+}
+.courses {
+  background-image: linear-gradient(
+      to right,
+      rgba(60, 65, 161, 0.9),
+      rgb(9, 13, 77)
+    ),
+    url(../img/libary.jpg);
+}
+.students,
+.courses {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+li {
+  margin-bottom: 5px;
+}
+
+.foot-option ul {
+  margin: 0;
+  padding: 0;
+}
+.foot-option ul li {
+  list-style-type: none;
+}
+
+/* forgotPassword  page*/
+.forgetPassword,
+.SignIn,
+.signUp {
+  background: linear-gradient(
+    to right,
+    rgba(60, 65, 161, 0.6),
+    rgba(60, 65, 161)
+  );
+  padding: 5em 0;
+}
+.form1 {
+  height: 20em;
+  width: 26em;
+  background: linear-gradient(
+    to right,
+    rgba(60, 65, 161, 0.1),
+    rgba(60, 65, 161)
+  );
+  border-radius: 15px;
+  box-shadow: rgb(14, 189, 202) 20px -20px;
+  margin-top: 6em;
+}
+input {
+  outline: none;
+  border-radius: 5px;
+}
+.email {
+  width: 19em;
+}
+.button {
+  padding: 10px 5.9em;
+  background: rgb(14, 189, 202);
+}
+
+/* signIn page */
+.form2 {
+  height: 28em;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(60, 65, 161, 0.1),
+    rgba(60, 65, 161)
+  );
+  border-radius: 15px;
+  box-shadow: rgb(14, 189, 202) 20px -20px;
+  /* margin-top: 6em; */
+  padding-left: 2em;
+}
+.email2,
+.Password {
+  width: 23em;
+}
+.button2 {
+  padding: 10px 10em;
+  background: rgb(14, 189, 202);
+}
+
+/* sign Up page*/
+.form3 {
+  width: 27em;
+  background: linear-gradient(
+    to right,
+    rgba(60, 65, 161, 0.1),
+    rgba(60, 65, 161)
+  );
+  border-radius: 15px;
+  box-shadow: rgb(14, 189, 202) 20px -20px;
+  margin-top: 4em;
+  padding-left: 2em;
+}
+
+.f,
+.t,
+.g,
+.i,
+.y {
+  color: #fff;
+  font-size: 1.3em;
+  background-color: red;
+  padding: 1em;
+  margin: 2%;
+  border-radius: 10px;
+}
+.social {
+  padding-left: 10%;
+}
+.footer-social {
+  text-align: center;
+}
+.f-h {
+  height: 50px;
+}
+.f-update {
+  margin: 2% 0;
+}
+.t-space{
+  margin-top: 2%;
+}
+
+.w3-mobile h3 {
+  font-weight: 500;
+  color: #fff;
+}
+.w3-mobile li {
+  font-weight: 400;
+  color: #666;
+  font-size: 0.9em;
+}
+/************ LECTUARALS **************/
+.lecturer-section{    
+padding: 3em 1%;
+}
+
+.lecturer{
+  padding: 1em 0;
+}
+.lecturer h2{
+  font-size: 2.3em;
+}
+
+
+
+footer {
+  background-color: #0b0b1d;
+}
+@media screen and (max-width: 768px) {
+  .form2,
+  .form3,
+  .form1 {
+    width: 18em;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .email2,
+  .Password {
+    width: 100%;
+  }
+  .button2 {
+    padding: 10px 6em;
+  }
+  .email {
+    width: 17em;
+  }
+  .button {
+    padding: 10px 4.7em;
+  }
+  .social {
+    padding-left: 1%;
+  }
+  .f,
+  .t,
+  .g,
+  .i,
+  .y {
+    color: #fff;
+    font-size: 1em;
+    background-color: red;
+    padding: 1em;
+    margin: 1%;
+    border-radius: 10px;
+  }
+  .social {
+  padding-top: 10%;
+  
+}
+}
