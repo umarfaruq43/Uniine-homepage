@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +12,48 @@
     <link rel="stylesheet" href="./css/homepage.css">
     <title>UNIVINE</title>
 </head>
+
 <body>
     <!-- <header>  -->
-        <header> 
-            <div class="navbar navbar-expand-md navbar-light fixed-top navignbar">
-                <a href="#" class="navbar-brand">UNIVINE</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#indexnavbar"><span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="indexnavbar">
-                    <ul class="navbar-nav">
-                        <a href="index.html" class="nav-items nav-link">Home</a>
-                        <a href="signIn.html" class="nav-items nav-link">Login</a>
-                        <a href="#" class="nav-items nav-link">Colleges/Facaulty</a>
-                    </ul>
-                </div>
-            </div>
-        </header>
+    <header>
+        <div class="w3-bar top-nav w3-container w3-padding ">
+            <span>
+                <a href="index.html" class="navbar-brand">UNiViNE</a>
+            </span>
+            <span class="w3-right">
+                <a href="index.html" class="w3-bar-item c  w3-hide-small">
+                    Home
+                </a>
+                <a href="#" class="w3-bar-item c w3-hide-small">
+                    Courses
+                </a>
+                <a href="#" class="w3-bar-item c w3-hide-small">
+                    About
+                </a>
+                <a href="signIn.html" class="w3-bar-item c w3-hide-small">
+                    <i class="fa fa-lock"></i> Login
+                </a>
+                <a href="signUp.html" class="w3-bar-item c w3-hide-small">
+                    <i class="fa fa-user"></i> Register
+                </a>
+                <a href="javascript:void(0)" class="w3-bar-item  w3-right w3-hide-large w3-hide-medium"
+                    onclick="myFunction()">&#9776;</a>
+            </span>
+        </div>
+
+        <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium"
+            style="background-color: #0B0B1D; color: #fff;">
+            <a href="index.html" class="w3-bar-item c"> Home</a>
+            <a href="#course" class="w3-bar-item c"> Courses</a>
+            <a href="signUp.html" class="w3-bar-item c">About</a>
+            <a href="signIn.html" class="w3-bar-item c">
+                <i class="fa fa-lock"></i> Login
+            </a>
+            <a href="signUp.html" class="w3-bar-item c ">
+                <i class="fa fa-user"></i> Register
+            </a>
+        </div>
+    </header>
     <!-- </header> -->
     <!-- <main> -->
     <main>
@@ -42,16 +69,30 @@
                 <input type="button" value="Sign In" class="button2 mb-3 text-white"> <br>
             </form>
             <div class="text-center">
-                <span>Already have an account ? <a href="#" class="text-white text-decoration-none"><strong> Sign In </strong></a></span>
+                <span>Already have an account ? <a href="#" class="text-white text-decoration-none"><strong> Sign In
+                        </strong></a></span>
             </div>
     </main>
     <!-- </main> -->
     <!-- <footer> -->
-        <footer class="footer text-center text-white py-3">
-                &copy; 2020 uniVINE Academics
-        </footer>
+    <footer class="footer text-center text-white py-3">
+        &copy; 2020 uniVINE Academics
+    </footer>
     <!-- </footer> -->
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
