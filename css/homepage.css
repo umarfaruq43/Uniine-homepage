@@ -1,7 +1,26 @@
 /* homepage page */
-.navignbar {
-  background: rgb(247, 185, 247, 0.7);
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
+.top-nav {
+  background-color: #0b0b1d;
+  color: #fff;
+}
+.top-nav .c {
+  transition-duration: 1s;
+}
+
+.top-nav .c:hover {
+  text-decoration: none;
+  background-color: #f9d342;
+  border-radius: 10px;
+  color: #0b0b1d;
+  font-weight: 500;
+}
+
 .buttonp {
   background-color: rgb(247, 185, 247);
 }
@@ -147,7 +166,7 @@ input {
 .f-update {
   margin: 2% 0;
 }
-.t-space{
+.t-space {
   margin-top: 2%;
 }
 
@@ -161,18 +180,36 @@ input {
   font-size: 0.9em;
 }
 /************ LECTUARALS **************/
-.lecturer-section{    
-padding: 3em 1%;
+.lecturer-section {
+  padding: 3em 1%;
 }
 
-.lecturer{
+.lecturer {
   padding: 1em 0;
 }
-.lecturer h2{
+.lecturer h2 {
   font-size: 2.3em;
 }
 
+/************ CONTACT **************/
+.contact {
+  padding: 3em 0;
+  background-image: linear-gradient(rgba(12, 12, 12, 0.796), rgba(0, 0, 0, 0.734)),
+    url(../img/gate.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
 
+.contact label{
+  color: #fff;
+}
+
+.contact .head {
+  padding: 1em 0;
+}
+
+
+/************ Footer**************/
 
 footer {
   background-color: #0b0b1d;
@@ -214,7 +251,20 @@ footer {
     border-radius: 10px;
   }
   .social {
-  padding-top: 10%;
-  
-}
+    padding-top: 10%;
+  }
+  .res{
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .best{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .students {
+    height: 70vh;
+  }
+  *{
+    border: 1px solid red
+  }
 }

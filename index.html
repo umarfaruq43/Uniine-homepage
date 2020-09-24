@@ -17,86 +17,52 @@
     <link rel="stylesheet" href="./animate.css/animate.min.css">
     <!-- W3 SCHOOL CSS link -->
     <link rel="stylesheet" href="css/w3.css">
-        <script src="https://kit.fontawesome.com/20bdf30e52.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/20bdf30e52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="icon/css/all.css">
 
 </head>
 
 <body>
     <!-- <header>  -->
     <header>
-        <!-- <div class="navbar navbar-expand-md navbar-light fixed-top navignbar">
-            <a href="#" class="navbar-brand">UNIVINE</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#indexnavbar"><span
-                    class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="indexnavbar">
-                <ul class="navbar-nav">
-                    <a href="index.html" class="nav-items nav-link">Home</a>
-                    <a href="signIn.html" class="nav-items nav-link">Login</a>
-                    <a href="#" class="nav-items nav-link">Colleges/Facaulty</a>
-                </ul>
+        
+
+        <div class="w3-bar top-nav w3-container w3-padding ">
+            <span>
+                <a href="index.html" class="navbar-brand">UNiViNE</a>
+            </span>
+            <span class="w3-right">
+                <a href="index.html" class="w3-bar-item c  w3-hide-small">
+                   Home
+                </a>
+                <a href="#" class="w3-bar-item c w3-hide-small">
+                    Courses
+                </a>
+                <a href="#" class="w3-bar-item c w3-hide-small">
+                    About
+                </a>
+                <a href="signIn.html" class="w3-bar-item c w3-hide-small">
+                    <i class="fa fa-lock"></i> Login
+                </a>
+                <a href="signUp.html" class="w3-bar-item c w3-hide-small">
+                    <i class="fa fa-user"></i> Register
+                </a>
+                <a href="javascript:void(0)" class="w3-bar-item  w3-right w3-hide-large w3-hide-medium"
+                    onclick="myFunction()">&#9776;</a>
+            </span>
+        </div>
+
+        <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium" style="background-color: #0B0B1D; color: #fff;">
+                <a href="#" class="w3-bar-item c"> Home</a>
+                <a href="#" class="w3-bar-item c"> Courses</a>
+                <a href="#" class="w3-bar-item c">About</a>
+                <a href="#" class="w3-bar-item c">
+                    <i class="fa fa-lock"></i> Login
+                </a>
+                <a href="signUp.html" class="w3-bar-item c ">
+                    <i class="fa fa-user"></i> Register
+                </a>
             </div>
-        </div> -->
-
-        <nav class=" w3-main top-nav navbar navbar-expand navbar-white navbar-light">
-            <!-- Left navbar links -->
-
-            <ul class="navbar-nav part">
-                <a href="#" class="navbar-brand">UNIVINE</a>
-                <li class="nav-item w3-hide-large">
-                    <a class="nav-link">
-                        <i class="fas fa-bars" onclick="w3_open()"></i>
-                    </a>
-                </li>
-                <!-- <li class="nav-item  d-sm-inline-block">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li> -->
-
-            </ul>
-
-            <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="fas fa-home"></i> Home
-                    </a>
-                </li>
-
-
-
-
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        Contact
-                    </a>
-                </li>
-
-
-
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                    <i class="fa fa-user"></i>  Sign up
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="signIn.html" class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="fa fa-lock"></i> Login
-
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        About us
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
-
-
 
 
     </header>
@@ -106,7 +72,7 @@
     <main>
         <div class="students text-white text-center">
             <!-- <marquee behavior="scroll" direction="left" scrollamount="15" class="mx-5">  -->
-            <h1 class="display-4 animate__animated animate__zoomIn">
+            <h1 class="display-4 animate__animated animate__zoomIn best">
                 Best Environment For All Students
             </h1>
             <!-- </marquee> -->
@@ -120,7 +86,7 @@
         <div class="container-fluid">
             <div class="row my-5 introUnivine">
                 <div class="container text-center">
-                    <h1 class="mt-5 mb-3 display-3">Welcome To uniVINE</h1>
+                    <h1 class="mt-5 mb-3 display-3 res">Welcome To uniViNE</h1>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum magnam similique
                         molestiae iure possimus alias beatae corporis totam veritatis, quibusdam unde quis</span>
                     <div class="row mt-5">
@@ -283,10 +249,10 @@
 
     <!--======GET IN TOUCH=======-->
     <section class="contact">
-        
+
         <div class="container">
             <div class="head">
-                <h2>Get In Touch</h2>
+                <h1 class="text-white">Get In Touch</h1>
             </div>
             <form action="" class="">
 
@@ -304,10 +270,13 @@
 
                 <div class="form-group">
                     <label for="usr">Message: </label>
-                   <textarea name="sms" id="sms"  rows="5" class="form-control" placeholder="Your message here..."></textarea>
-                
-                </div>
+                    <textarea name="sms" id="sms" rows="5" class="form-control"
+                        placeholder="Your message here..."></textarea>
 
+                </div>
+              <div class="text-center">
+                <input type="submit" value="Send" class="btn btn-success">
+              </div>
             </form>
         </div>
 
