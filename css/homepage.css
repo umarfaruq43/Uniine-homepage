@@ -110,14 +110,7 @@ input {
   padding: 10px 5.9em;
   background: rgb(14, 189, 202);
 }
-.send{
-  background-color: #0b0b1d;
-  color: #f9d342;
-}
-.send:hover{
-  background-color: #f9d342;
-  color: #0b0b1d;
-}
+
 
 /* signIn page */
 .form2 {
@@ -221,6 +214,21 @@ input {
   padding: 1em 0;
 }
 
+.send{
+  background-color: #f9d342;
+  color:  #0b0b1d;
+  transition-duration: 1s;
+  font-weight: bold;
+}
+.send:hover{
+  /* background-color: #0b0b1d  ; */
+  color:#fff ;
+   background: linear-gradient(
+    to right,
+    rgba(60, 65, 161, 0.1),
+    #0b0b1d
+  );
+}
 
 /************ Footer**************/
 
