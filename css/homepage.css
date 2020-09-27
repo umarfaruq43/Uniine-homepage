@@ -22,13 +22,19 @@ header{
 }
 
 .buttonp {
-  background-color: rgb(247, 185, 247);
+  background-color:#0b0b1d;
+  color: #fff;
+}
+.buttonp:hover{
+  background-color: #f9d342;
+  color: #0b0b1d;
 }
 .students {
   background-image: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)),
     url(../img/post-imgfour-720x544.jpg);
   height: 35em;
   padding-top: 8em;
+  margin:3em 0;
   overflow: hidden;
 }
 .introUnivine {
@@ -103,6 +109,14 @@ input {
 .button {
   padding: 10px 5.9em;
   background: rgb(14, 189, 202);
+}
+.send{
+  background-color: #0b0b1d;
+  color: #f9d342;
+}
+.send:hover{
+  background-color: #f9d342;
+  color: #0b0b1d;
 }
 
 /* signIn page */
@@ -180,9 +194,7 @@ input {
   font-size: 0.9em;
 }
 /************ LECTUARALS **************/
-.lecturer-section {
-  padding: 3em 1%;
-}
+
 
 .lecturer {
   padding: 1em 0;
@@ -193,6 +205,7 @@ input {
 
 /************ CONTACT **************/
 .contact {
+  margin-top: 1em;
   padding: 3em 0;
   background-image: linear-gradient(rgba(12, 12, 12, 0.796), rgba(0, 0, 0, 0.734)),
     url(../img/gate.jpg);
@@ -261,8 +274,8 @@ footer {
     font-size: 1.5em;
     font-weight: 500;
   }
-  .students {
+  /* .students {
     height: 70vh;
-  }
+  } */
  
 }
